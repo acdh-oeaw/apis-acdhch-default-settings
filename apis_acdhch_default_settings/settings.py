@@ -99,6 +99,10 @@ INSTALLED_APPS = [
     "apis_ontology",
 ]
 
+# put apis_override_select2js at the beginning of the list
+# to make its static files weigh more than from the other apps
+INSTALLED_APPS = ["apis_override_select2js"] + INSTALLED_APPS
+
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 CORS_ORIGIN_ALLOW_ALL = True
