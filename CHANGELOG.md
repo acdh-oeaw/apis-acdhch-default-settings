@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.1...v0.1.2) (2023-08-18)
+
+
+### Bug Fixes
+
+* **deps:** add whitenoise dependency ([d5c43ce](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/d5c43ceed7ab71cc725b56e4d5f6c05886121d6f)), closes [#3](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/3)
+* **deps:** loosen Python dependency version constraints ([56cf49f](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/56cf49f0fc53b74ebbf6d1057c3876184f3b96b6))
+
 ## [0.1.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.0...v0.1.1) (2023-08-16)
 
 
