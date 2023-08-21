@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.2...v0.1.3) (2023-08-21)
+
+
+### Bug Fixes
+
+* drop guardian settings ([167531e](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/167531e619d1ec0f429e35f342cba272404c377c))
+
 ## [0.1.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.1...v0.1.2) (2023-08-18)
 
 
