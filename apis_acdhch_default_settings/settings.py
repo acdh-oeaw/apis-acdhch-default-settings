@@ -93,7 +93,6 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     # "drf_yasg",
     "drf_spectacular",
-    "guardian",
     "charts",
     "csvexport",
     "apis_ontology",
@@ -162,7 +161,6 @@ REST_FRAMEWORK = {
 
 AUTHENTICATION_BACKENDS = (
     "django.contrib.auth.backends.ModelBackend",  # this is default
-    "guardian.backends.ObjectPermissionBackend",
 )
 
 MIDDLEWARE = [
