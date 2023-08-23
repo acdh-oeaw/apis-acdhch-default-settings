@@ -309,7 +309,6 @@ APIS_DETAIL_VIEWS_ALLOWED = False
 MAX_AGE = 60 * 60
 
 APIS_LIST_VIEW_TEMPLATE = "browsing/generic_list.html"
-APIS_DELETE_VIEW_TEMPLATE = "webpage/confirm_delete.html"
 
 APIS_IIIF_WORK_KIND = "IIIF"
 APIS_IIIF_ENT_IIIF_REL = "has iiif image"
@@ -320,4 +319,3 @@ APIS_OSD_JS = (
 APIS_OSD_IMG_PREFIX = (
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.0/images/"
 )
-BASE_TEMPLATE = "webpage/base.html"
