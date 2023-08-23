@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.4...v0.1.5) (2023-08-23)
+
+
+### Bug Fixes
+
+* drop override of default templates ([f9fea45](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/f9fea45713bd9fe8f687c0afc8c6d3b88775cb8e))
+
 ## [0.1.4](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.3...v0.1.4) (2023-08-23)
 
 
