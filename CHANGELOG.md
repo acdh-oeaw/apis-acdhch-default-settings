@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.3...v0.1.4) (2023-08-23)
+
+
+### Bug Fixes
+
+* drop webpage ([71dc49d](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/71dc49d7ff3b02bfb642967ea5fa042d945fd439))
+
 ## [0.1.3](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.2...v0.1.3) (2023-08-21)
 
 
