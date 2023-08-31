@@ -33,7 +33,7 @@ BASE_DIR = os.path.dirname(
 SHARED_URL = "https://shared.acdh.oeaw.ac.at/"
 
 ACDH_IMPRINT_URL = (
-    "https://shared.acdh.oeaw.ac.at/acdh-common-assets/api/imprint.php?serviceID="
+    "https://imprint.acdh.oeaw.ac.at/"
 )
 
 PROJECT_NAME = "apis"
