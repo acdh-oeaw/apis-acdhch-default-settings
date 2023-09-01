@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.5...v0.1.6) (2023-09-01)
+
+
+### Bug Fixes
+
+* drop ACDH_IMPRINT_URL ([1f43725](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/1f437257aa32496ce9af81311339dab5f5b15441))
+
 ## [0.1.5](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.4...v0.1.5) (2023-08-23)
 
 
