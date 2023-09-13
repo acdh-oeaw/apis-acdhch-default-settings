@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.6...v0.1.7) (2023-09-13)
+
+
+### Bug Fixes
+
+* remove the list view template override ([234ab87](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/234ab877f09a92e2e2bb9c2537e14ab30ee0d5f7))
+
 ## [0.1.6](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.5...v0.1.6) (2023-09-01)
 
 
