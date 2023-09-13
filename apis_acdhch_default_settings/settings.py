@@ -303,8 +303,6 @@ APIS_LIST_VIEWS_ALLOWED = False
 APIS_DETAIL_VIEWS_ALLOWED = False
 MAX_AGE = 60 * 60
 
-APIS_LIST_VIEW_TEMPLATE = "browsing/generic_list.html"
-
 APIS_IIIF_WORK_KIND = "IIIF"
 APIS_IIIF_ENT_IIIF_REL = "has iiif image"
 APIS_IIIF_SERVER = "https://iiif.acdh.oeaw.ac.at/"
