@@ -79,6 +79,7 @@ INSTALLED_APPS = [
     "django_filters",
     "django_tables2",
     "rest_framework",
+    "apis_core.core",
     "apis_core.apis_entities",
     "apis_core.apis_metainfo",
     "apis_core.apis_relations",
