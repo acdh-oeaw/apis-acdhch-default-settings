@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.7...v0.1.8) (2023-10-05)
+
+
+### Bug Fixes
+
+* add apis_core.core to installed apps ([7d65db9](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/7d65db9a5a09c5607d79a3bfcab69c977c054fbf))
+
 ## [0.1.7](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.6...v0.1.7) (2023-09-13)
 
 
