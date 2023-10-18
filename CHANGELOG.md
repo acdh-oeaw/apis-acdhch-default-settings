@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.9](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.8...v0.1.9) (2023-10-18)
+
+
+### Bug Fixes
+
+* drop charts dependency ([d9ccb0f](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/d9ccb0f7d064dbbb92b36c7abea4761e42036c3b))
+* drop WSGI_APPLICATION ([28aff2a](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/28aff2aa5e21b4b332bbfb7c95c4d54676724edf)), closes [#24](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/24)
+
 ## [0.1.8](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.7...v0.1.8) (2023-10-05)
 
 
