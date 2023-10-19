@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.10](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.9...v0.1.10) (2023-10-19)
+
+
+### Bug Fixes
+
+* include ALLOWED_CIDR_NETS into settings ([dcbcfb8](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/dcbcfb8bd1c5c3254fc0c3a936e6e1bf11a968cb)), closes [#19](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/19)
+
 ## [0.1.9](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.8...v0.1.9) (2023-10-18)
 
 
