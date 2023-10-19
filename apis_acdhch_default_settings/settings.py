@@ -310,3 +310,5 @@ APIS_OSD_JS = (
 APIS_OSD_IMG_PREFIX = (
     "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.0/images/"
 )
+
+ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
