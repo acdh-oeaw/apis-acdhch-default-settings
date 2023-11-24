@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "django_filters",
     "django_tables2",
     "rest_framework",
+    "apis_ontology",
     "apis_core.apis_entities",
     "apis_core.apis_metainfo",
     "apis_core.apis_relations",
@@ -57,7 +58,6 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "drf_spectacular",
     "csvexport",
-    "apis_ontology",
 ]
 
 # https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-USE_X_FORWARDED_HOST
