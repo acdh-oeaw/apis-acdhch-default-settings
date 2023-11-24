@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.11](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.10...v0.1.11) (2023-11-24)
+
+
+### Bug Fixes
+
+* disable sentry tracing ([aa7c401](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/aa7c4019ca72938ad51254c2ff723696c03d4eef))
+
 ## [0.1.10](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.9...v0.1.10) (2023-10-19)
 
 
