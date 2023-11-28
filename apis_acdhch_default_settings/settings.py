@@ -1,4 +1,5 @@
 import os
+import re
 from typing import Any, Dict
 
 import dj_database_url
@@ -315,3 +316,10 @@ APIS_OSD_IMG_PREFIX = (
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
 DATABASES = { 'default': dj_database_url.config(default='sqlite:///db.sqlite3', conn_max_age=600) }
+
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+if os.environ.get("PUBLIC_URL"):
+    ALLOWED_HOSTS.append(re.sub(r"https?://", "", os.environ.get("PUBLIC_URL")))
+
+if os.environ.get("ALLOWED_HOSTS"):
+    ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(",")
