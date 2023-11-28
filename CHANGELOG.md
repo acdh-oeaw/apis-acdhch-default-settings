@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.12](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.11...v0.1.12) (2023-11-28)
+
+
+### Bug Fixes
+
+* drop apis-override-select2js from dependencies ([0f7840f](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/0f7840f6b7657f3cc2b2f7df32a1d9992a233892))
+
 ## [0.1.11](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.10...v0.1.11) (2023-11-24)
 
 
