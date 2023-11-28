@@ -12,7 +12,6 @@ dj-database-url = "^2.0.0"
 django-allow-cidr = "^0.6.0"
 django-csp = "^3.7"
 whitenoise = "^5.2.0"
-apis-override-select2js = { git="https://github.com/acdh-oeaw/apis-override-select2js", tag="v0.1.0" }
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
