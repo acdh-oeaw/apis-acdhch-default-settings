@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.13](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.12...v0.1.13) (2023-11-29)
+
+
+### Bug Fixes
+
+* provide default database setup ([911c0ec](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/911c0ec32908540aad65b85f9db2427556ff1da1)), closes [#33](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/33)
+
 ## [0.1.12](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.11...v0.1.12) (2023-11-28)
 
 
