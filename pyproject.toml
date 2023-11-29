@@ -4,6 +4,7 @@ version = "0.1.13"
 description = "Default settings for APIS instances at the ACDH-CH"
 authors = ["Birger Schacht <birger.schacht@oeaw.ac.at>"]
 license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
