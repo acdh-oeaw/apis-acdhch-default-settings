@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.14](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.13...v0.1.14) (2023-11-29)
+
+
+### Bug Fixes
+
+* add initial README ([ad64d78](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ad64d780830379cc4fbfee40f5f2096cab18b7a2))
+
 ## [0.1.13](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.12...v0.1.13) (2023-11-29)
 
 
