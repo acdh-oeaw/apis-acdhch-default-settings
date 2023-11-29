@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.15](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.14...v0.1.15) (2023-11-29)
+
+
+### Bug Fixes
+
+* get `ALLOWED_HOSTS` from `PUBLIC_URL` ([443b0c2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/443b0c267e57b505832a0be8c962dba148792372)), closes [#28](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/28)
+
 ## [0.1.14](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.13...v0.1.14) (2023-11-29)
 
 
