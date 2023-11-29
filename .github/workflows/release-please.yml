@@ -21,4 +21,6 @@ jobs:
           release-type: python
           package-name: apis-acdhch-default-settings
       - run: gh workflow run publish.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
         if: ${{ steps.release.outputs.release_created }}
