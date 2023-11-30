@@ -174,7 +174,7 @@ MIDDLEWARE = [
     "crum.CurrentRequestUserMiddleware",
 ]
 
-ROOT_URLCONF = "apis-achdch-default-settings.urls"
+ROOT_URLCONF = "apis_achdch_default_settings.urls"
 
 TEMPLATES = [
     {
