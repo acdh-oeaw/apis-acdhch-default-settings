@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.16](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.15...v0.1.16) (2023-11-30)
+
+
+### Bug Fixes
+
+* drop deprecated context_processors ([7aa4ce6](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/7aa4ce64ffd211552f21688324a4abedc74e485c))
+* set ROOT_URLCONF to correct module ([2afd483](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/2afd483fb4dbafb26626ade3149c3ed6e86b9bb2))
+
 ## [0.1.15](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.14...v0.1.15) (2023-11-29)
 
 
