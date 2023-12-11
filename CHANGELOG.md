@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.17](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.16...v0.1.17) (2023-12-11)
+
+
+### Bug Fixes
+
+* drop django-cors-headers related settings ([6620c56](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/6620c5612b238d8ee024b45101e852cdf8defdfe))
+
 ## [0.1.16](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.15...v0.1.16) (2023-11-30)
 
 

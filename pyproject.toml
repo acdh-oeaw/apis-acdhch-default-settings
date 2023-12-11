@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "apis-acdhch-default-settings"
-version = "0.1.16"
+version = "0.1.17"
 description = "Default settings for APIS instances at the ACDH-CH"
 authors = ["Birger Schacht <birger.schacht@oeaw.ac.at>"]
 license = "MIT"
