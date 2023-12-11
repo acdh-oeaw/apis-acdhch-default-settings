@@ -68,7 +68,6 @@ PROJECT_DEFAULT_MD = {
 
 INSTALLED_APPS = [
     "dal",
-    # 'corsheaders',
     "dal_select2",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -100,9 +99,6 @@ INSTALLED_APPS = ["apis_override_select2js"] + INSTALLED_APPS
 
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_METHODS = ("GET", "OPTIONS")
 
 SPECTACULAR_SETTINGS: Dict[str, Any] = {
     "TITLE": "APIS generic API",
@@ -161,7 +157,6 @@ AUTHENTICATION_BACKENDS = (
 
 MIDDLEWARE = [
     "allow_cidr.middleware.AllowCIDRMiddleware",
-    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
