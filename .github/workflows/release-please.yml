@@ -20,6 +20,7 @@ jobs:
         with:
           release-type: python
           package-name: apis-acdhch-default-settings
+      - uses: actions/checkout@v4
       - run: gh workflow run publish.yml
         env:
           GH_TOKEN: ${{ github.token }}
