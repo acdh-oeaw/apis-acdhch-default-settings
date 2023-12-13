@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.18](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.17...v0.1.18) (2023-12-13)
+
+
+### Bug Fixes
+
+* drop deprecated context_processors ([ca114f3](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ca114f3b08163d77b23ed146d82712248930c3f9)), closes [#55](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/55)
+
 ## [0.1.17](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.16...v0.1.17) (2023-12-11)
 
 
