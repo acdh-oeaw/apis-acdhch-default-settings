@@ -77,6 +77,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "reversion",
     "crispy_forms",
+    "crispy_bootstrap4",
     "django_filters",
     "django_tables2",
     "rest_framework",
