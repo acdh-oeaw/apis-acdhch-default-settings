@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.21](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.20...v0.1.21) (2023-12-19)
+
+
+### Bug Fixes
+
+* typo in ROOT_URLCONF ([9840a10](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/9840a10c6c7097ec9c18f51d8a34f8e0d5515aa8))
+
 ## [0.1.20](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.19...v0.1.20) (2023-12-19)
 
 
