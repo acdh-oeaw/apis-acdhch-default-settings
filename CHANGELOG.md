@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.19](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.18...v0.1.19) (2023-12-19)
+
+
+### Bug Fixes
+
+* add crispy_bootstrap4 to list of installed apps ([11f7300](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/11f7300294f3e4d9c2621318a1154fd70901a701))
+* drop apis_labels from installed apps ([5c9a086](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/5c9a0864e5c3daac1d143b61312e057fc20c00f6))
+
 ## [0.1.18](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.17...v0.1.18) (2023-12-13)
 
 
