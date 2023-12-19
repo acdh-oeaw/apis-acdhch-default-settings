@@ -85,7 +85,6 @@ INSTALLED_APPS = [
     "apis_core.apis_metainfo",
     "apis_core.apis_relations",
     "apis_core.apis_vocabularies",
-    "apis_core.apis_labels",
     "rest_framework.authtoken",
     # "drf_yasg",
     "drf_spectacular",
