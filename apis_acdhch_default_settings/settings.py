@@ -128,7 +128,7 @@ CSP_DEFAULT_SRC = (
 )
 CSP_FRAME_SRC = ("sennierer.github.io",)
 
-CRISPY_TEMPLATE_PACK = "bootstrap3"
+CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
