@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.20](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.19...v0.1.20) (2023-12-19)
+
+
+### Bug Fixes
+
+* bump default template pack for crispy ([9d8a3cb](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/9d8a3cb6450640e8b8a9a97bc634bbbc7ff94249))
+
 ## [0.1.19](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.18...v0.1.19) (2023-12-19)
 
 
