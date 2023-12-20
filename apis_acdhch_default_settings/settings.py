@@ -2,6 +2,7 @@ import os
 import re
 from typing import Any, Dict
 
+from django.core.management.utils import get_random_secret_key
 import dj_database_url
 
 if os.environ.get("SENTRY_DSN"):
@@ -22,10 +23,7 @@ if os.environ.get("SENTRY_DSN"):
         send_default_pii=True,
     )
 
-# We fall back to a DEFAULT_SECRET_KEY, but you should
-# override this using an environment variable!
-DEFAULT_SECRET_KEY = "a+nkut46lzzg_=ul)zrs29$u_6^*)2by2mjmwn)tqlgw)_at&l"
-SECRET_KEY = os.environ.get("SECRET_KEY", DEFAULT_SECRET_KEY)
+SECRET_KEY = os.environ.get("SECRET_KEY", get_random_secret_key())
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(
