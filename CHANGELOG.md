@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.22](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.21...v0.1.22) (2023-12-20)
+
+
+### Bug Fixes
+
+* set drf DEFAULT_PERMISSION_CLASSES to model permission ([91c4457](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/91c4457dbd0e4c54cd09b5c2c2510db5adb508ff))
+* TEMPLATES: remove apis_ontology/templates from DIRS ([e7945e0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/e7945e07bdf2865d1708ca0fedc627b18be7bb18))
+* use random secret key instead of hardcoding it ([0f7e9e3](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/0f7e9e3d760104596c1f3b1bca950817c8ef1cce)), closes [#65](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/65)
+
 ## [0.1.21](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.20...v0.1.21) (2023-12-19)
 
 
