@@ -81,6 +81,7 @@ INSTALLED_APPS = [
     "django_filters",
     "django_tables2",
     "rest_framework",
+    "apis_ontology",
     "apis_core.core",
     "apis_core.apis_entities",
     "apis_core.apis_metainfo",
@@ -90,7 +91,6 @@ INSTALLED_APPS = [
     # "drf_yasg",
     "drf_spectacular",
     "csvexport",
-    "apis_ontology",
 ]
 
 # put apis_override_select2js at the beginning of the list
