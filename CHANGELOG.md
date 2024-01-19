@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.23](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.22...v0.1.23) (2024-01-19)
+
+
+### Bug Fixes
+
+* add 'generic' app to INSTALLED_APPS ([6e2d382](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/6e2d3820ce7fc2051184c78e9065213e53e27fab))
+
 ## [0.1.22](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.21...v0.1.22) (2023-12-20)
 
 
