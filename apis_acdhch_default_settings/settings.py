@@ -311,3 +311,12 @@ if os.environ.get("PUBLIC_URL"):
 
 if os.environ.get("ALLOWED_HOSTS"):
     ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(",")
+
+if os.environ.get("AUTH_LDAP_USER_LIST", False):
+    AUTH_LDAP_SERVER_URI = os.environ.get("ARZ_AUTH_LDAP_SERVER_URI")
+    AUTH_LDAP_USER_DN_TEMPLATE = "%(user)s@oeaw.ads"
+
+    AUTHENTICATION_BACKENDS = [
+        "apis_acdhch_default_settings.ldapauth.CustomLDAPBackend",
+        "django.contrib.auth.backends.ModelBackend",
+    ]
