@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.24](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.23...v0.1.24) (2024-01-26)
+
+
+### Bug Fixes
+
+* add ldap support ([4dfb76e](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/4dfb76e90c2a9a7ff1e834bf0645d55e15692c68))
+
 ## [0.1.23](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.22...v0.1.23) (2024-01-19)
 
 
