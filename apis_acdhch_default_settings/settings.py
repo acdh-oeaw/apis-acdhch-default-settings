@@ -218,3 +218,25 @@ if os.environ.get("AUTH_LDAP_USER_LIST", False):
         "apis_acdhch_default_settings.ldapauth.CustomLDAPBackend",
         "django.contrib.auth.backends.ModelBackend",
     ]
+
+# https://docs.djangoproject.com/en/5.0/howto/logging/
+# setup logging to log everything to stdout
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    'formatters': {
+       'verbose': {
+           'format': '%(asctime)s %(name)-6s %(levelname)-8s %(message)s',
+       },
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "verbose",
+        },
+    },
+    "root": {
+        "handlers": ["console"],
+        "level": "DEBUG",
+    },
+}
