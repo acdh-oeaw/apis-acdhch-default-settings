@@ -63,8 +63,10 @@ PROJECT_DEFAULT_MD = {
 }
 
 # Application definition
-
+# put apis_override_select2js at the beginning of the list
+# to make its static files weigh more than from the other apps
 INSTALLED_APPS = [
+    "apis_override_select2js",
     "dal",
     "dal_select2",
     "django.contrib.admin",
@@ -91,10 +93,6 @@ INSTALLED_APPS = [
     "csvexport",
     "apis_ontology",
 ]
-
-# put apis_override_select2js at the beginning of the list
-# to make its static files weigh more than from the other apps
-INSTALLED_APPS = ["apis_override_select2js"] + INSTALLED_APPS
 
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
@@ -147,10 +145,6 @@ REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
 
-AUTHENTICATION_BACKENDS = (
-    "django.contrib.auth.backends.ModelBackend",  # this is default
-)
-
 MIDDLEWARE = [
     "allow_cidr.middleware.AllowCIDRMiddleware",
     "django.middleware.security.SecurityMiddleware",
@@ -187,9 +181,7 @@ TEMPLATES = [
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
-    {
-        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"
-    },
+    {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
     {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
     {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
     {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
@@ -223,87 +215,15 @@ MEDIA_URL = "/media/"
 
 DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap4.html"
 
-APIS_COMPONENTS = []
-# APIS settings
-
-APIS_TEI_TEXTS = ["xml/tei transcription"]
-APIS_CETEICEAN_CSS = "https://teic.github.io/CETEIcean/css/CETEIcean.css"
-APIS_CETEICEAN_JS = "https://teic.github.io/CETEIcean/js/CETEI.js"
-
 APIS_NEXT_PREV = True
-
-APIS_ALTERNATE_NAMES = [
-    "Taufname",
-    "Ehename",
-    "Name laut ÖBL XML",
-    "alternative Namensform",
-    "alternative name",
-    "Künstlername",
-    "Mädchenname",
-    "Pseudonym",
-    "weitere Namensform",
-]
-
-APIS_RELATIONS_FILTER_EXCLUDE = [
-    "*uri*",
-    "*tempentityclass*",
-    "user",
-    "*__id",
-    "*source*",
-    "label",
-    "*temp_entity*",
-    "*collection*",
-    "*published*",
-    "*_set",
-    "*_set__*",
-    "_ptr",
-    "baseclass",
-    "*id",
-    "*written*",
-    "relation_type__*",
-    "*__text*",
-    "text*",
-    "*annotation_set_relation*",
-    "*start_start_date*",
-    "*end_end_date*",
-    "*start_end_date*",
-    "*end_start_date*",
-    "*label*",
-    "*review*",
-    "*__name",
-    "*__status",
-    "*__references",
-    "*__notes",
-]
-
-
-
-APIS_VOCABULARIES = {"exclude": ["userAdded"]}
-
-APIS_METAINFO = {"exclude": ["groups_allowed"]}
-
-# TODO RDF: Remove this dictionary from settings entirely and attach it only to entity models
-APIS_ENTITIES = {}
-
 APIS_API_EXCLUDE_SETS = True  # exclude reverse links to entities
-
 APIS_LIST_VIEWS_ALLOWED = False
 APIS_DETAIL_VIEWS_ALLOWED = False
 MAX_AGE = 60 * 60
 
-APIS_IIIF_WORK_KIND = "IIIF"
-APIS_IIIF_ENT_IIIF_REL = "has iiif image"
-APIS_IIIF_SERVER = "https://iiif.acdh.oeaw.ac.at/"
-APIS_OSD_JS = (
-    "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.0/openseadragon.min.js"
-)
-APIS_OSD_IMG_PREFIX = (
-    "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.0/images/"
-)
-
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
-DATABASES = { 'default': dj_database_url.config(default='sqlite:///db.sqlite3', conn_max_age=600) }
+DATABASES = {'default': dj_database_url.config(default='sqlite:///db.sqlite3', conn_max_age=600)}
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 if os.environ.get("PUBLIC_URL"):
