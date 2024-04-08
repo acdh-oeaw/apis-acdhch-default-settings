@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.24...v1.0.0) (2024-04-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop reversion
+
+### Bug Fixes
+
+* drop reversion ([d92cbe0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/d92cbe02e659231264d478907fb2cf18fcbcd612))
+
 ## [0.1.24](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.23...v0.1.24) (2024-01-26)
 
 
