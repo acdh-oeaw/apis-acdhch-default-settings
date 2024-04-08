@@ -75,7 +75,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "reversion",
     "crispy_forms",
     "crispy_bootstrap4",
     "django_filters",
@@ -155,7 +154,6 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "csp.middleware.CSPMiddleware",
-    "reversion.middleware.RevisionMiddleware",
     "crum.CurrentRequestUserMiddleware",
 ]
 
