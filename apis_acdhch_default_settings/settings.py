@@ -32,36 +32,6 @@ BASE_DIR = os.path.dirname(
 
 SHARED_URL = "https://shared.acdh.oeaw.ac.at/"
 
-PROJECT_NAME = "apis"
-PROJECT_SHARED = "https://shared.acdh.oeaw.ac.at/apis/"
-PROJECT_DEFAULT_MD = {
-    "title": "TITLE",
-    "author": "Matthias Schlögl, Peter Andorfer",
-    "subtitle": "SUBTITLE",
-    "description": """This is a default metadata file. To change this, provide\
-    provide a following file {PROJECT_SHARED}/{PROJECT_NAME}/metadata.json""",
-    "github": "https://github.com/acdh-oeaw/apis-webpage-base",
-    "production instance": None,
-    "purpose_de": "",
-    "purpose_en": """""",
-    "version": ["apis_core", "charts", "django"],
-    "matomo_id": "",
-    "matomo_url": "",
-    "imprint": "/imprint",
-    "social_media": [
-        ("fab fa-twitter", "https://twitter.com/ACDH_OeAW"),
-        ("fab fa-youtube", "https://www.youtube.com/channel/UCgaEMaMbPkULYRI5u6gvG-w"),
-    ],
-    "social_media": [
-        ("fab fa-twitter fa-2x", "https://twitter.com/ACDH_OeAW"),
-        (
-            "fab fa-youtube fa-2x",
-            "https://www.youtube.com/channel/UCgaEMaMbPkULYRI5u6gvG-w",
-        ),
-    ],
-    "app_type": "database",
-}
-
 # Application definition
 # put apis_override_select2js at the beginning of the list
 # to make its static files weigh more than from the other apps
@@ -87,7 +57,6 @@ INSTALLED_APPS = [
     "apis_core.apis_vocabularies",
     "apis_core.generic",
     "rest_framework.authtoken",
-    # "drf_yasg",
     "drf_spectacular",
     "csvexport",
     "apis_ontology",
