@@ -30,8 +30,6 @@ BASE_DIR = os.path.dirname(
     os.path.dirname(os.path.abspath(os.path.join(__file__, "../")))
 )
 
-SHARED_URL = "https://shared.acdh.oeaw.ac.at/"
-
 # Application definition
 # put apis_override_select2js at the beginning of the list
 # to make its static files weigh more than from the other apps
@@ -62,9 +60,13 @@ INSTALLED_APPS = [
     "apis_ontology",
 ]
 
+# https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-USE_X_FORWARDED_HOST
 USE_X_FORWARDED_HOST = True
+# https://docs.djangoproject.com/en/5.0/ref/settings/#secure-proxy-ssl-header
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
+# drf-spectacular settings
+# https://drf-spectacular.readthedocs.io/en/latest/settings.html
 SPECTACULAR_SETTINGS: Dict[str, Any] = {
     "TITLE": "APIS generic API",
     "DESCRIPTIOPN": "Provides access to the main APIS data-model endpoints.",
@@ -73,7 +75,8 @@ SPECTACULAR_SETTINGS: Dict[str, Any] = {
     "DEFAULT_GENERATOR_CLASS": 'apis_core.generic.generators.CustomSchemaGenerator'
 }
 
-
+# django-csp settings
+# https://django-csp.readthedocs.io/en/latest/migration-guide.html#migration-guide-chapter
 CSP_DEFAULT_SRC = (
     "'self'",
     "'unsafe-inline'",
@@ -94,8 +97,12 @@ CSP_DEFAULT_SRC = (
 )
 CSP_FRAME_SRC = ("sennierer.github.io",)
 
+# django-crispy-forms settings
+# https://django-crispy-forms.readthedocs.io/en/latest/install.html#template-packs
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
+# django-rest-framework settings
+# https://www.django-rest-framework.org/api-guide/settings/
 REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
     "PAGE_SIZE": 50,
@@ -114,6 +121,7 @@ REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
 
+# https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-MIDDLEWARE
 MIDDLEWARE = [
     "allow_cidr.middleware.AllowCIDRMiddleware",
     "django.middleware.security.SecurityMiddleware",
@@ -128,8 +136,10 @@ MIDDLEWARE = [
     "crum.CurrentRequestUserMiddleware",
 ]
 
+# https://docs.djangoproject.com/en/5.0/ref/settings/#root-urlconf
 ROOT_URLCONF = "apis_acdhch_default_settings.urls"
 
+# https://docs.djangoproject.com/en/5.0/ref/settings/#templates
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
@@ -146,9 +156,7 @@ TEMPLATES = [
     }
 ]
 
-# Password validation
-# https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
-
+# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
     {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
@@ -156,44 +164,43 @@ AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
 ]
 
-APIS_BASE_URI = "TO CHANGE"
-
-APIS_MIN_CHAR = 0
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
-
 LANGUAGE_CODE = "en"
-
 TIME_ZONE = "UTC"
-
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
-
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles/")
 STATIC_URL = "/static/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 MEDIA_URL = "/media/"
 
+# django-tables2 setting
+# https://django-tables2.readthedocs.io/en/latest/pages/custom-rendering.html#available-templates
 DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap4.html"
 
+# apis-core-rdf settings
+APIS_BASE_URI = "TO CHANGE"
+APIS_MIN_CHAR = 0
 APIS_NEXT_PREV = True
-APIS_API_EXCLUDE_SETS = True  # exclude reverse links to entities
 APIS_LIST_VIEWS_ALLOWED = False
 APIS_DETAIL_VIEWS_ALLOWED = False
-MAX_AGE = 60 * 60
+SHARED_URL = "https://shared.acdh.oeaw.ac.at/"
 
+# django-allow-cidr settings
+# https://github.com/mozmeao/django-allow-cidr
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
+# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+# https://github.com/jazzband/dj-database-url
 DATABASES = {'default': dj_database_url.config(default='sqlite:///db.sqlite3', conn_max_age=600)}
 
+# https://docs.djangoproject.com/en/5.0/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 if os.environ.get("PUBLIC_URL"):
     ALLOWED_HOSTS.append(re.sub(r"https?://", "", os.environ.get("PUBLIC_URL")))
@@ -201,10 +208,12 @@ if os.environ.get("PUBLIC_URL"):
 if os.environ.get("ALLOWED_HOSTS"):
     ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(",")
 
+# setting of apis_acdhch_default_settings.ldapauth
 if os.environ.get("AUTH_LDAP_USER_LIST", False):
     AUTH_LDAP_SERVER_URI = os.environ.get("ARZ_AUTH_LDAP_SERVER_URI")
     AUTH_LDAP_USER_DN_TEMPLATE = "%(user)s@oeaw.ads"
 
+    # https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-AUTHENTICATION_BACKENDS
     AUTHENTICATION_BACKENDS = [
         "apis_acdhch_default_settings.ldapauth.CustomLDAPBackend",
         "django.contrib.auth.backends.ModelBackend",
