@@ -101,6 +101,7 @@ SPECTACULAR_SETTINGS: Dict[str, Any] = {
     "DESCRIPTIOPN": "Provides access to the main APIS data-model endpoints.",
     "LICENSE": {"name": "MIT License", "url": "https://www.mit.edu/~amini/LICENSE.md"},
     "VERSION": "0.13",
+    "DEFAULT_GENERATOR_CLASS": 'apis_core.generic.generators.CustomSchemaGenerator'
 }
 
 
