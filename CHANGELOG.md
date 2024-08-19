@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.0.0...v1.1.0) (2024-08-19)
+
+
+### Features
+
+* **settings:** introduce logging configuration ([1a534c6](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/1a534c64678377880c93d1f353e5c5c7320c9346))
+
+
+### Bug Fixes
+
+* **middlware:** add middleware to prevent clickjacking ([3105cea](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/3105cea46ee65b3af7dc2b0c436c80f46ae9d70e)), closes [#47](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/47)
+* **settings:** drop unused settings ([19aff16](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/19aff16df8ce186ab7177d0e542cc673b4941fe9)), closes [#46](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/46)
+* **spectacular:** set DEFAULT_GENERATOR_CLASS ([41d3c49](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/41d3c49d0985aa2bb7ea6fa7f83c4b0fa2a7514e)), closes [#84](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/84)
+
 ## [1.0.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v0.1.24...v1.0.0) (2024-04-08)
 
 
