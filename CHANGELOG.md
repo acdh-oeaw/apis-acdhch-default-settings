@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.1.0...v1.1.1) (2024-09-05)
+
+
+### Bug Fixes
+
+* **INSTALLED_APPS:** move apis_core.core further down in the app list ([7f4ded7](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/7f4ded7a25fb90c938bfa44e8dd1ae7ded7cfe0b))
+* **INSTALLED_APPS:** move apis_ontology before apis_core in app list ([6ae85d3](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/6ae85d37ba2320c39cffa4fa5d473f6301ba3b21)), closes [#29](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/29)
+
 ## [1.1.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.0.0...v1.1.0) (2024-08-19)
 
 
