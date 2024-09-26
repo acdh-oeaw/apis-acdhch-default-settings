@@ -1,0 +1,11 @@
+{% extends basetemplate|default:"base.html" %}
+
+{% block title %}Imprint{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class="card imprint">
+      <div class="card-body">{{ imprint|safe }}</div>
+    </div>
+  </div>
+{% endblock %}
