@@ -240,3 +240,9 @@ LOGGING = {
         "level": "DEBUG",
     },
 }
+
+# Our deployment infrastructure sets the GITLAB_ENVIRONMENT_URL to the
+# repository from which the instance is deployed. Lets reuse this
+# information to set the repository url in APIS
+if os.environ.get("GITLAB_ENVIRONMENT_URL"):
+    GIT_REPOSITORY_URL = os.environ.get("GITLAB_ENVIRONMENT_URL")
