@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.1.1...v1.1.2) (2024-09-26)
+
+
+### Bug Fixes
+
+* **settings:** move apis_relations before apis_entities ([ca045fd](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ca045fd40c9601da1ef5c80577300f278a5d171f))
+
 ## [1.1.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.1.0...v1.1.1) (2024-09-05)
 
 
