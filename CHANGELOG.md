@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.1.2...v1.2.0) (2024-09-30)
+
+
+### Features
+
+* add imprint functionality ([6384f3c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/6384f3ccf84b24a0dbb8fecbb8ee5541e1c7aad4))
+* **settings:** set GIT_REPOSITORY_URL variable ([179b360](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/179b360f29a2aa1c8f9e3c349c371ef99d372109))
+
 ## [1.1.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.1.1...v1.1.2) (2024-09-26)
 
 
