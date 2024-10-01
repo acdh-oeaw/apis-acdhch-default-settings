@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.2.0...v1.2.1) (2024-10-01)
+
+
+### Bug Fixes
+
+* **settings:** drop csvexport from INSTALLED_APPS ([9963ca8](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/9963ca8c24e44ebba79e5bc17e42e723480ca879)), closes [#100](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/100)
+
 ## [1.2.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.1.2...v1.2.0) (2024-09-30)
 
 
