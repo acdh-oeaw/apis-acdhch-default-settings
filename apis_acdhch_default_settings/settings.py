@@ -58,7 +58,6 @@ INSTALLED_APPS = [
     "apis_core.core",
     "rest_framework.authtoken",
     "drf_spectacular",
-    "csvexport",
 ]
 
 # https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-USE_X_FORWARDED_HOST
