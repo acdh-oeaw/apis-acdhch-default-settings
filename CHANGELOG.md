@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.2.1...v1.2.2) (2024-10-14)
+
+
+### Bug Fixes
+
+* **template:** make imprint url handling more robust ([1009f15](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/1009f15e451470e25faf810410cf90c91bfe4f7c))
+
 ## [1.2.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.2.0...v1.2.1) (2024-10-01)
 
 
