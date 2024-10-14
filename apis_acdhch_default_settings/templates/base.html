@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
 {% block imprint %}
-<a href="{% url 'django_acdhch_functions:imprint' %}">Imprint | Impressum</a>
+    {% url "imprint" as imprint_url %}
+    {% if imprint_url %}<a href="{{ imprint_url }}">Imprint | Impressum</a>{% endif %}
 {% endblock imprint %}
