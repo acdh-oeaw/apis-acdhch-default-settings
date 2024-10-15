@@ -185,7 +185,8 @@ MEDIA_URL = "/media/"
 DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap4.html"
 
 # apis-core-rdf settings
-APIS_BASE_URI = "TO CHANGE"
+if os.environ.get("PUBLIC_URL"):
+    APIS_BASE_URI = os.environ.get("PUBLIC_URL")
 APIS_MIN_CHAR = 0
 APIS_NEXT_PREV = True
 APIS_LIST_VIEWS_ALLOWED = False
