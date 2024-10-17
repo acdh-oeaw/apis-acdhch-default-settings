@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.2.2...v1.3.0) (2024-10-17)
+
+
+### Features
+
+* **settings:** reuse PUBLIC_URL for APIS_BASE_URI ([f71b5b7](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/f71b5b7560050132c501eafad1228845c77db343)), closes [#107](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/107)
+
 ## [1.2.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.2.1...v1.2.2) (2024-10-14)
 
 
