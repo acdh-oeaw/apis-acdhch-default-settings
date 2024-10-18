@@ -1,5 +1,6 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% block imprint %}
     {% url "imprint" as imprint_url %}
-    {% if imprint_url %}<a href="{{ imprint_url }}">Imprint | Impressum</a>{% endif %}
+    {% if imprint_url %}<a href="{{ imprint_url }}">{% translate "Imprint" %}</a>{% endif %}
 {% endblock imprint %}
