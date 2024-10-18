@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.3.0...v1.4.0) (2024-10-18)
+
+
+### Features
+
+* **deps:** add opentelemetry dependencies ([845b4b2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/845b4b24c79d66f0244743cdba45686cfb680486))
+
+
+### Bug Fixes
+
+* **templates:** translate the imprint link ([5ded88c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/5ded88ccba9cda48132d8d717b9fda5d2325a12c))
+
 ## [1.3.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.2.2...v1.3.0) (2024-10-17)
 
 
