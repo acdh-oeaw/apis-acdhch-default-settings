@@ -17,10 +17,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
 ]
 
-if "webpage" in settings.INSTALLED_APPS:
-    urlpatterns.append(path("", include("webpage.urls", namespace="webpage")))
-    handler404 = "webpage.views.handler404"
-
 if "apis_bibsonomy" in settings.INSTALLED_APPS:
     urlpatterns.append(
         path("bibsonomy/", include("apis_bibsonomy.urls", namespace="bibsonomy"))
