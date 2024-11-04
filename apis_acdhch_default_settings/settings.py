@@ -242,6 +242,10 @@ LOGGING = {
     },
 }
 
+# https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-DEBUG
+if debug := os.environ.get("DJANGO_DEBUG", False):
+    DEBUG = debug.lower() == "true"
+
 # Our deployment infrastructure sets the GITLAB_ENVIRONMENT_URL to the
 # repository from which the instance is deployed. Lets reuse this
 # information to set the repository url in APIS
