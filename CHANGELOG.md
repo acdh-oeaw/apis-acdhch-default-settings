@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.4.0...v1.5.0) (2024-11-06)
+
+
+### Features
+
+* **settings:** allow to set DEBUG from environment ([1677bf4](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/1677bf4b9bce8c1dc7f62f8c1f6ac400917dbd69))
+
+
+### Bug Fixes
+
+* **urls:** drop inclusion of webpage app in urls ([fb3947c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/fb3947c85ba711723b72453df7ebe7db8f9a189b)), closes [#114](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/114)
+
 ## [1.4.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.3.0...v1.4.0) (2024-10-18)
 
 
