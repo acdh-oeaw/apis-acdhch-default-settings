@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.5.0...v1.6.0) (2024-11-22)
+
+
+### Features
+
+* **settings:** point LOGIN_URL to the default APIS login route ([4866b48](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/4866b48d22f8f26ef5aa771950bd421d50f44bfe)), closes [#123](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/123)
+
+
+### Documentation
+
+* **settings:** point all Django documentation links to stable docs ([e08771a](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/e08771a7f78466a8ddefd4c0618fbc907540f7f7))
+
 ## [1.5.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.4.0...v1.5.0) (2024-11-06)
 
 
