@@ -60,9 +60,9 @@ INSTALLED_APPS = [
     "drf_spectacular",
 ]
 
-# https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-USE_X_FORWARDED_HOST
+# https://docs.djangoproject.com/en/stable/ref/settings/#std-setting-USE_X_FORWARDED_HOST
 USE_X_FORWARDED_HOST = True
-# https://docs.djangoproject.com/en/5.0/ref/settings/#secure-proxy-ssl-header
+# https://docs.djangoproject.com/en/stable/ref/settings/#secure-proxy-ssl-header
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # drf-spectacular settings
@@ -121,7 +121,7 @@ REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
 
-# https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-MIDDLEWARE
+# https://docs.djangoproject.com/en/stable/ref/settings/#std-setting-MIDDLEWARE
 MIDDLEWARE = [
     "allow_cidr.middleware.AllowCIDRMiddleware",
     "django.middleware.security.SecurityMiddleware",
@@ -136,10 +136,10 @@ MIDDLEWARE = [
     "crum.CurrentRequestUserMiddleware",
 ]
 
-# https://docs.djangoproject.com/en/5.0/ref/settings/#root-urlconf
+# https://docs.djangoproject.com/en/stable/ref/settings/#root-urlconf
 ROOT_URLCONF = "apis_acdhch_default_settings.urls"
 
-# https://docs.djangoproject.com/en/5.0/ref/settings/#templates
+# https://docs.djangoproject.com/en/stable/ref/settings/#templates
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
@@ -156,7 +156,7 @@ TEMPLATES = [
     }
 ]
 
-# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
+# https://docs.djangoproject.com/en/stable/ref/settings/#auth-password-validators
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
     {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
@@ -166,7 +166,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/1.11/topics/i18n/
+# https://docs.djangoproject.com/en/stable/topics/i18n/
 LANGUAGE_CODE = "en"
 TIME_ZONE = "UTC"
 USE_I18N = True
@@ -174,7 +174,7 @@ USE_L10N = True
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/1.11/howto/static-files/
+# https://docs.djangoproject.com/en/stable/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles/")
 STATIC_URL = "/static/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
@@ -197,11 +197,11 @@ SHARED_URL = "https://shared.acdh.oeaw.ac.at/"
 # https://github.com/mozmeao/django-allow-cidr
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+# https://docs.djangoproject.com/en/stable/ref/settings/#databases
 # https://github.com/jazzband/dj-database-url
 DATABASES = {'default': dj_database_url.config(default='sqlite:///db.sqlite3', conn_max_age=600)}
 
-# https://docs.djangoproject.com/en/5.0/ref/settings/#allowed-hosts
+# https://docs.djangoproject.com/en/stable/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 if os.environ.get("PUBLIC_URL"):
     ALLOWED_HOSTS.append(re.sub(r"https?://", "", os.environ.get("PUBLIC_URL")))
@@ -214,13 +214,13 @@ if os.environ.get("AUTH_LDAP_USER_LIST", False):
     AUTH_LDAP_SERVER_URI = os.environ.get("ARZ_AUTH_LDAP_SERVER_URI")
     AUTH_LDAP_USER_DN_TEMPLATE = "%(user)s@oeaw.ads"
 
-    # https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-AUTHENTICATION_BACKENDS
+    # https://docs.djangoproject.com/en/stable/ref/settings/#std-setting-AUTHENTICATION_BACKENDS
     AUTHENTICATION_BACKENDS = [
         "apis_acdhch_default_settings.ldapauth.CustomLDAPBackend",
         "django.contrib.auth.backends.ModelBackend",
     ]
 
-# https://docs.djangoproject.com/en/5.0/howto/logging/
+# https://docs.djangoproject.com/en/stable/howto/logging/
 # setup logging to log everything to stdout
 LOGGING = {
     "version": 1,
@@ -242,7 +242,7 @@ LOGGING = {
     },
 }
 
-# https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-DEBUG
+# https://docs.djangoproject.com/en/stable/ref/settings/#std-setting-DEBUG
 if debug := os.environ.get("DJANGO_DEBUG", False):
     DEBUG = debug.lower() == "true"
 
