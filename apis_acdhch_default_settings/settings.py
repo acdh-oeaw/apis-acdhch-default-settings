@@ -251,3 +251,9 @@ if debug := os.environ.get("DJANGO_DEBUG", False):
 # information to set the repository url in APIS
 if os.environ.get("GITLAB_ENVIRONMENT_URL"):
     GIT_REPOSITORY_URL = os.environ.get("GITLAB_ENVIRONMENT_URL")
+
+
+# https://docs.djangoproject.com/en/stable/ref/settings/#login-url
+# apis-core provides a login interface on /apis/accounts/login
+# so we use that route as default login route
+LOGIN_URL = "/apis/accounts/login"
