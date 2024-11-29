@@ -257,3 +257,8 @@ if os.environ.get("GITLAB_ENVIRONMENT_URL"):
 # apis-core provides a login interface on /apis/accounts/login
 # so we use that route as default login route
 LOGIN_URL = "/apis/accounts/login"
+
+# https://docs.djangoproject.com/en/stable/ref/settings/#login-redirect-url
+# apis-core does not provide a view on `/accounts/profile` which is the
+# default LOGIN_REDIRECT_URL, so we set it to `/`.
+LOGIN_REDIRECT_URL = "/"
