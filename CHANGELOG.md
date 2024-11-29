@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.6.0...v1.6.1) (2024-11-29)
+
+
+### Bug Fixes
+
+* **settings:** set `LOGIN_REDIRECT_URL` to `/` ([18eea29](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/18eea29d38320000661acbbd3bd5cd1d2f44d2fa))
+
 ## [1.6.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.5.0...v1.6.0) (2024-11-22)
 
 
