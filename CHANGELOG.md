@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.6.1...v1.7.0) (2024-12-03)
+
+
+### Features
+
+* **urls:** include staticfiles_urlpatterns in default urls ([19101c7](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/19101c71197728c25e2e0439f0e48e1dc184fcd2)), closes [#131](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/131)
+
 ## [1.6.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.6.0...v1.6.1) (2024-11-29)
 
 
