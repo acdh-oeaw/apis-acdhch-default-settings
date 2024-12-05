@@ -5,7 +5,7 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
 
-from apis_acdhch_default_settings import utils
+from apis_acdhch_default_settings.views import Imprint
 
 from apis_core.apis_entities.api_views import GetEntityGeneric
 
@@ -25,4 +25,4 @@ if "apis_bibsonomy" in settings.INSTALLED_APPS:
     )
 
 urlpatterns.append(path("", TemplateView.as_view(template_name="base.html")))
-urlpatterns.append(path("imprint", TemplateView.as_view(template_name="imprint.html", extra_context={"imprint": utils.get_imprint()}), name="imprint"))
+urlpatterns.append(path("imprint", Imprint.as_view(), name="imprint"))
