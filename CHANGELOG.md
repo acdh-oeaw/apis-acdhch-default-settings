@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.7.0...v1.8.0) (2024-12-09)
+
+
+### Features
+
+* **views:** replace utils with views ([ce4e839](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ce4e839f5108ac44cfa9e9a2a9ca8f5f6bafda92)), closes [#134](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/134)
+
 ## [1.7.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.6.1...v1.7.0) (2024-12-03)
 
 
