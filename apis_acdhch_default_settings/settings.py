@@ -134,6 +134,8 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "csp.middleware.CSPMiddleware",
     "crum.CurrentRequestUserMiddleware",
+    # this is used by the apis_core.history module:
+    "simple_history.middleware.HistoryRequestMiddleware",
 ]
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#root-urlconf
