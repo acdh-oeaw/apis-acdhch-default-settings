@@ -1,6 +1,7 @@
 import os
 import re
 from typing import Any, Dict
+from pathlib import Path
 
 from django.core.management.utils import get_random_secret_key
 import dj_database_url
@@ -25,10 +26,7 @@ if os.environ.get("SENTRY_DSN"):
 
 SECRET_KEY = os.environ.get("SECRET_KEY", get_random_secret_key())
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(
-    os.path.dirname(os.path.abspath(os.path.join(__file__, "../")))
-)
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Application definition
 # put apis_override_select2js at the beginning of the list
