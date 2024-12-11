@@ -80,20 +80,11 @@ CSP_DEFAULT_SRC = (
     "'unsafe-inline'",
     "cdnjs.cloudflare.com",
     "cdn.jsdelivr.net",
-    "fonts.googleapis.com",
     "ajax.googleapis.com",
-    "cdn.rawgit.com",
     "*.acdh.oeaw.ac.at",
     "unpkg.com",
-    "fonts.gstatic.com",
-    "cdn.datatables.net",
-    "code.highcharts.com",
-    "*.acdh-dev.oeaw.ac.at",
-    "*.acdh.oeaw.ac.at",
-    "openstreetmap.org",
     "*.openstreetmap.org",
 )
-CSP_FRAME_SRC = ("sennierer.github.io",)
 
 # django-crispy-forms settings
 # https://django-crispy-forms.readthedocs.io/en/latest/install.html#template-packs
