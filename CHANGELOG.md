@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.8.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.7.0...v1.8.0) (2024-12-17)
+
+
+### Features
+
+* **deps:** add django-removals dependency and add it to installed apps ([d60dfbb](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/d60dfbb6d8b47ed33c7a0cb54c1f38d4bb1b3d66)), closes [#122](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/122)
+* **views:** replace utils with views ([ce4e839](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ce4e839f5108ac44cfa9e9a2a9ca8f5f6bafda92)), closes [#134](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/134)
+
+
+### Bug Fixes
+
+* **settings:** add HistoryRequestMiddleware ([7e66df2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/7e66df2d103514535ac544fd9ed7f42746a7a590)), closes [#93](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/93)
+* **settings:** replace os.path with pathlib.Path ([d0c77ba](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/d0c77ba075a3ae25927c077f19cdbdecb6038998))
+* **settings:** set DEFAULT_AUTO_FIELD ([1208d9c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/1208d9c66c6145c0d463217f13b59592059ec6f9))
+
 ## [1.7.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.6.1...v1.7.0) (2024-12-03)
 
 
