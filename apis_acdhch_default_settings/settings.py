@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     "rest_framework",
     "apis_ontology",
     "apis_acdhch_default_settings",
-    "apis_core.apis_relations",
     "apis_core.apis_entities",
     "apis_core.apis_metainfo",
     "apis_core.apis_vocabularies",
