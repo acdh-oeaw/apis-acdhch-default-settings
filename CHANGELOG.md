@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.8.0...v2.0.0) (2025-01-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* **settings:** drop apis_relations from INSTALLED_APPS
+
+### Features
+
+* **settings:** drop apis_relations from INSTALLED_APPS ([eeea767](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/eeea7671afa9435d7c5996117ff84e50b3354f33))
+
+
+### Bug Fixes
+
+* **settings:** drop deprecated USE_L10N setting ([7d1ee88](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/7d1ee88caf9f51199eec9464c2e31b32ac33f9d2)), closes [#144](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/144)
+* **settings:** remove unused third party sources from CSP settings ([3188782](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/318878244f1bab6cadb1d4f217efdb1c167323e8)), closes [#82](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/82)
+
 ## [1.8.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.7.0...v1.8.0) (2024-12-17)
 
 
