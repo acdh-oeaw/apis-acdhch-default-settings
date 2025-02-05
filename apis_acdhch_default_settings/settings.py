@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django_removals",
     "crispy_forms",
     "crispy_bootstrap4",
+    "crispy_bootstrap5",
     "django_filters",
     "django_tables2",
     "rest_framework",
@@ -88,7 +89,8 @@ CSP_DEFAULT_SRC = (
 
 # django-crispy-forms settings
 # https://django-crispy-forms.readthedocs.io/en/latest/install.html#template-packs
-CRISPY_TEMPLATE_PACK = "bootstrap4"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 # django-rest-framework settings
 # https://www.django-rest-framework.org/api-guide/settings/
@@ -175,7 +177,7 @@ MEDIA_URL = "/media/"
 
 # django-tables2 setting
 # https://django-tables2.readthedocs.io/en/latest/pages/custom-rendering.html#available-templates
-DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap4.html"
+DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap5.html"
 
 # apis-core-rdf settings
 if os.environ.get("PUBLIC_URL"):
