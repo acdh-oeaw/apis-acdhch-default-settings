@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.0.0...v2.1.0) (2025-02-05)
+
+
+### Features
+
+* **settings:** change default crispy & tables theme to bootstrap5 ([f1dfcfb](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/f1dfcfb40849fb28ef8ec92a1e3903f65b4eb400))
+
 ## [2.0.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v1.8.0...v2.0.0) (2025-01-29)
 
 
