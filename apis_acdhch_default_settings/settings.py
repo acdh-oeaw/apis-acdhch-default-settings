@@ -87,6 +87,9 @@ CSP_DEFAULT_SRC = (
     "*.openstreetmap.org",
 )
 
+# Content Security Policy settings
+CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
+
 # django-crispy-forms settings
 # https://django-crispy-forms.readthedocs.io/en/latest/install.html#template-packs
 CRISPY_TEMPLATE_PACK = "bootstrap5"
