@@ -86,6 +86,7 @@ CSP_DEFAULT_SRC = (
     "unpkg.com",
     "*.openstreetmap.org",
 )
+CSP_IMG_SRC = ["'self'", "*.acdh.oeaw.ac.at", "data:"]
 
 # django-crispy-forms settings
 # https://django-crispy-forms.readthedocs.io/en/latest/install.html#template-packs
