@@ -178,7 +178,7 @@ MEDIA_URL = "/media/"
 
 # django-tables2 setting
 # https://django-tables2.readthedocs.io/en/latest/pages/custom-rendering.html#available-templates
-DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap5.html"
+DJANGO_TABLES2_TEMPLATE = "django_tables2/bootstrap5-responsive.html"
 
 # apis-core-rdf settings
 if os.environ.get("PUBLIC_URL"):
