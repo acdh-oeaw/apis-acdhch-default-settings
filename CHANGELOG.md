@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.2.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.1.0...v2.2.0) (2025-02-18)
+
+
+### Features
+
+* **settings:** add `apis_core.relations` to INSTALLED_APPS ([bbbf42b](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/bbbf42bd60e29b4b8a6d12c5e893679d6b6446f1))
+* **settings:** introduce a separate CSP setting for images ([ddf111f](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ddf111f5e861d4e99d6c96a058c968460779ed77))
+
+
+### Bug Fixes
+
+* **settings:** set default tables2 template to bootstrap5-reponsive ([4c2fa2c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/4c2fa2c8385faeb16aaae0954bb53d5e60ae88cd)), closes [#167](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/167)
+
 ## [2.1.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.0.0...v2.1.0) (2025-02-05)
 
 
