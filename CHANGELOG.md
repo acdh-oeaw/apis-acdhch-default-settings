@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.2.1...v2.2.2) (2025-02-20)
+
+
+### Bug Fixes
+
+* **settings:** move generic app further up in the INSTALLED_APPS list ([142e900](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/142e9009e9fb537641578dbf656408c88ef16638))
+
 ## [2.2.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.2.0...v2.2.1) (2025-02-20)
 
 
