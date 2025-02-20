@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.2.0...v2.2.1) (2025-02-20)
+
+
+### Bug Fixes
+
+* **settings:** drop apis_override_select2js from INSTALLED_APPS ([e651b1b](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/e651b1b210eab55960fbe0eb264da202183b2287))
+
 ## [2.2.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.1.0...v2.2.0) (2025-02-18)
 
 
