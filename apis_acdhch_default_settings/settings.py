@@ -32,7 +32,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # put apis_override_select2js at the beginning of the list
 # to make its static files weigh more than from the other apps
 INSTALLED_APPS = [
-    "apis_override_select2js",
     "dal",
     "dal_select2",
     "django.contrib.admin",
