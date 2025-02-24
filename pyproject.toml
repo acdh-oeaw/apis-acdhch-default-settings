@@ -1,15 +1,20 @@
+[project]
+name = "apis-acdhch-default-settings"
+description = "Default settings for APIS instances at the ACDH-CH"
+authors = [
+    { name = "Birger Schacht", email = "<birger.schacht@oeaw.ac.at>" },
+]
+license = { text = "MIT" }
+readme = "README.md"
+dynamic = [ "version", "dependencies" ]
+
 [project.urls]
 source = "https://github.com/acdh-oeaw/apis-acdhch-default-settings"
 issues = "https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues"
 changelog = "https://github.com/acdh-oeaw/apis-acdhch-default-settings/releases"
 
 [tool.poetry]
-name = "apis-acdhch-default-settings"
 version = "2.2.2"
-description = "Default settings for APIS instances at the ACDH-CH"
-authors = ["Birger Schacht <birger.schacht@oeaw.ac.at>"]
-license = "MIT"
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
