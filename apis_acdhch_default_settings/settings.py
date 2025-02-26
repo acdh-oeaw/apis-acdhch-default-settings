@@ -85,7 +85,7 @@ CSP_DEFAULT_SRC = (
     "unpkg.com",
     "*.openstreetmap.org",
 )
-CSP_IMG_SRC = ["'self'", "*.acdh.oeaw.ac.at", "data:"]
+CSP_IMG_SRC = ["'self'", "*.acdh.oeaw.ac.at", "data:", "*.openstreetmap.org", "cdnjs.cloudflare.com"]
 
 # Content Security Policy settings
 CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
