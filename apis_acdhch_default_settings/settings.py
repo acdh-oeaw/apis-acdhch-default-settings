@@ -53,7 +53,6 @@ INSTALLED_APPS = [
     "apis_core.relations",
     "apis_core.apis_entities",
     "apis_core.apis_metainfo",
-    "apis_core.apis_vocabularies",
     "apis_core.core",
     "rest_framework.authtoken",
     "drf_spectacular",
