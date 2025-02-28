@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.3.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.2.2...v2.3.0) (2025-02-28)
+
+
+### Features
+
+* **settings:** (re)add Content Security Policy setting ([686da51](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/686da519184c4a945f08f454614b003277d7df94))
+
+
+### Bug Fixes
+
+* **settings:** drop apis_vocabularies from INSTALLED_APPS ([899b2d8](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/899b2d8b3806ee39b8db46bc5383edb8288901c8))
+
 ## [2.2.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.2.1...v2.2.2) (2025-02-20)
 
 
