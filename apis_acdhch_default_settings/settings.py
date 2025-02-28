@@ -188,6 +188,7 @@ APIS_NEXT_PREV = True
 APIS_LIST_VIEWS_ALLOWED = False
 APIS_DETAIL_VIEWS_ALLOWED = False
 SHARED_URL = "https://shared.acdh.oeaw.ac.at/"
+ADDITIONAL_MODULE_LOOKUP_PATHS = ["apis_acdhch_default_settings"]
 
 # django-allow-cidr settings
 # https://github.com/mozmeao/django-allow-cidr
