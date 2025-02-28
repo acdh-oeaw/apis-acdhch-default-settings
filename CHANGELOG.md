@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.3.0...v2.3.1) (2025-02-28)
+
+
+### Bug Fixes
+
+* **settings:** add resources used by leaflet to CSP_IMG_SRC ([c931735](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/c931735c12684b1820cf30a8004aecf636a8cc59))
+
 ## [2.3.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.2.2...v2.3.0) (2025-02-28)
 
 
