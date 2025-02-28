@@ -1,8 +1,3 @@
-[project.urls]
-source = "https://github.com/acdh-oeaw/apis-acdhch-default-settings"
-issues = "https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues"
-changelog = "https://github.com/acdh-oeaw/apis-acdhch-default-settings/releases"
-
 [tool.poetry]
 name = "apis-acdhch-default-settings"
 version = "2.2.2"
