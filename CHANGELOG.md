@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.4.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.3.1...v2.4.0) (2025-03-20)
+
+
+### Features
+
+* **querysets:** add ExternalAutocomplete for E53_Place and E21_Person ([acd27d1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/acd27d15fb4326fd4381de8963e8bbdf3b458a51))
+* **settings:** set additional lookup module path ([dfe8d5c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/dfe8d5ca3a701cb825bcce3f94f75a5a78398004))
+
 ## [2.3.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.3.0...v2.3.1) (2025-02-28)
 
 
