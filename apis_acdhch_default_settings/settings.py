@@ -29,8 +29,6 @@ SECRET_KEY = os.environ.get("SECRET_KEY", get_random_secret_key())
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Application definition
-# put apis_override_select2js at the beginning of the list
-# to make its static files weigh more than from the other apps
 INSTALLED_APPS = [
     "dal",
     "dal_select2",
