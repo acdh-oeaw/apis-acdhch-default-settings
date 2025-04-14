@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.5.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.4.0...v2.5.0) (2025-04-14)
+
+
+### Features
+
+* **templates:** add a monitoring variable to the meta tags ([06a729d](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/06a729de0483ff208cf7f6021c64adae7830faf9))
+
+
+### Documentation
+
+* **settings:** drop unnecessary comment ([5db1d0a](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/5db1d0ad38bb724e28dd842d0605345c09395eac)), closes [#188](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/188)
+
 ## [2.4.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.3.1...v2.4.0) (2025-03-20)
 
 
