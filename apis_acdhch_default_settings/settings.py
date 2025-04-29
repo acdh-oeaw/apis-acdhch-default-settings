@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     "apis_ontology",
     "apis_acdhch_default_settings",
     "apis_core.generic",
+    "apis_core.collections",
+    "apis_core.history",
     "apis_core.relations",
     "apis_core.apis_entities",
     "apis_core.apis_metainfo",
