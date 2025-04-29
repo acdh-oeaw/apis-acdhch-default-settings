@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.5.0...v2.6.0) (2025-04-29)
+
+
+### Features
+
+* **settings:** add collections, history to INSTALLED_APPS ([48b01e0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/48b01e08cff206065802d21db8f7d6ac82f057f6)), closes [#197](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/197)
+
 ## [2.5.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.4.0...v2.5.0) (2025-04-14)
 
 

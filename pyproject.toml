@@ -1,6 +1,6 @@
 [project]
 name = "apis-acdhch-default-settings"
-version = "2.5.0"
+version = "2.6.0"
 description = "Default settings for APIS instances at the ACDH-CH"
 readme = "README.md"
 requires-python = ">=3.11"
