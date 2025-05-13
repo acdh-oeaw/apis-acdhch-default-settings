@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.6.0...v2.7.0) (2025-05-13)
+
+
+### Features
+
+* **settings:** drop sentry configuration ([38cfc96](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/38cfc96b5a0c53fd13066cbae3c0c84d7f749aab))
+
 ## [2.6.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.5.0...v2.6.0) (2025-04-29)
 
 
