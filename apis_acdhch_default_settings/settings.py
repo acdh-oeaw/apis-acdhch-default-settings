@@ -67,7 +67,6 @@ SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 # https://drf-spectacular.readthedocs.io/en/latest/settings.html
 SPECTACULAR_SETTINGS: Dict[str, Any] = {
     "TITLE": "APIS generic API",
-    "DESCRIPTIOPN": "Provides access to the main APIS data-model endpoints.",
     "LICENSE": {"name": "MIT License", "url": "https://www.mit.edu/~amini/LICENSE.md"},
     "VERSION": "0.13",
     "DEFAULT_GENERATOR_CLASS": 'apis_core.generic.generators.CustomSchemaGenerator'
