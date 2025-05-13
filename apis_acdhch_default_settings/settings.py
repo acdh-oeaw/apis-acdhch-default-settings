@@ -6,24 +6,6 @@ from pathlib import Path
 from django.core.management.utils import get_random_secret_key
 import dj_database_url
 
-if os.environ.get("SENTRY_DSN"):
-    import sentry_sdk
-    from sentry_sdk.integrations.django import DjangoIntegration
-
-    sentry_sdk.init(
-        dsn=os.environ.get("SENTRY_DSN"),
-        integrations=[
-            DjangoIntegration(),
-        ],
-        environment="production",
-        # we disable tracing by default
-        enable_tracing=False,
-
-        # If you wish to associate users to errors (assuming you are using
-        # django.contrib.auth) you may enable sending PII data.
-        send_default_pii=True,
-    )
-
 SECRET_KEY = os.environ.get("SECRET_KEY", get_random_secret_key())
 
 BASE_DIR = Path(__file__).resolve().parent.parent
