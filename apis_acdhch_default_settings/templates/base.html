@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% load i18n %}
-
 {% block meta %}
-{{ block.super }}
-<meta name="monitoring" content="Icinga Check">
+    {{ block.super }}
+    <meta name="monitoring" content="Icinga Check">
 {% endblock meta %}
-
 {% block imprint %}
     {% url "imprint" as imprint_url %}
-    {% if imprint_url %}<a href="{{ imprint_url }}">{% translate "Imprint" %}</a>{% endif %}
+    {% if imprint_url %}
+        <a href="{{ imprint_url }}">{% translate "Imprint" %}</a>
+    {% endif %}
 {% endblock imprint %}
