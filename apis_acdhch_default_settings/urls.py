@@ -12,9 +12,7 @@ from apis_core.apis_entities.api_views import GetEntityGeneric
 urlpatterns = [
     path("apis/", include("apis_core.urls", namespace="apis")),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
-    path(
-        "entity/<int:pk>/", GetEntityGeneric.as_view(), name="GetEntityGenericRoot"
-    ),
+    path("entity/<int:pk>/", GetEntityGeneric.as_view(), name="GetEntityGenericRoot"),
     path("admin/", admin.site.urls),
 ]
 urlpatterns += staticfiles_urlpatterns()
