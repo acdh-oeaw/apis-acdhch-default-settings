@@ -51,7 +51,7 @@ SPECTACULAR_SETTINGS: Dict[str, Any] = {
     "TITLE": "APIS generic API",
     "LICENSE": {"name": "MIT License", "url": "https://www.mit.edu/~amini/LICENSE.md"},
     "VERSION": "0.13",
-    "DEFAULT_GENERATOR_CLASS": 'apis_core.generic.generators.CustomSchemaGenerator'
+    "DEFAULT_GENERATOR_CLASS": "apis_core.generic.generators.CustomSchemaGenerator",
 }
 
 # django-csp settings
@@ -66,7 +66,13 @@ CSP_DEFAULT_SRC = (
     "unpkg.com",
     "*.openstreetmap.org",
 )
-CSP_IMG_SRC = ["'self'", "*.acdh.oeaw.ac.at", "data:", "*.openstreetmap.org", "cdnjs.cloudflare.com"]
+CSP_IMG_SRC = [
+    "'self'",
+    "*.acdh.oeaw.ac.at",
+    "data:",
+    "*.openstreetmap.org",
+    "cdnjs.cloudflare.com",
+]
 
 # Content Security Policy settings
 CSP_FRAME_ANCESTORS = ["https://*.pages.oeaw.ac.at/"]
@@ -136,7 +142,9 @@ TEMPLATES = [
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#auth-password-validators
 AUTH_PASSWORD_VALIDATORS = [
-    {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
+    {
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"
+    },
     {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
     {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
     {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
@@ -144,7 +152,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/stable/ref/settings/#default-auto-field
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Internationalization
 # https://docs.djangoproject.com/en/stable/topics/i18n/
@@ -180,7 +188,9 @@ ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#databases
 # https://github.com/jazzband/dj-database-url
-DATABASES = {'default': dj_database_url.config(default='sqlite:///db.sqlite3', conn_max_age=600)}
+DATABASES = {
+    "default": dj_database_url.config(default="sqlite:///db.sqlite3", conn_max_age=600)
+}
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
@@ -206,10 +216,10 @@ if os.environ.get("AUTH_LDAP_USER_LIST", False):
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
-    'formatters': {
-       'verbose': {
-           'format': '%(asctime)s %(name)-6s %(levelname)-8s %(message)s',
-       },
+    "formatters": {
+        "verbose": {
+            "format": "%(asctime)s %(name)-6s %(levelname)-8s %(message)s",
+        },
     },
     "handlers": {
         "console": {
