@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.8.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.7.0...v2.8.0) (2025-05-16)
+
+
+### Features
+
+* **settings:** add LocaleMiddleware to the list of middlewares ([e803775](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/e8037759d1739ad8c72e91fa1cd96debd2dba4f3))
+
+
+### Bug Fixes
+
+* **locales:** add translation for `Imprint` ([4a90552](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/4a90552ea34cb126f496027b4cc5a376d4594ae3))
+
 ## [2.7.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.6.0...v2.7.0) (2025-05-13)
 
 
