@@ -45,3 +45,21 @@ artifacts = ["**/*.mo"]
 
 [tool.hatch.build.targets.sdist]
 artifacts = ["**/*.mo"]
+
+[tool.deptry.per_rule_ignores]
+DEP002 = [
+  "django-allow-cidr",
+  "django-csp",
+  "whitenoise",
+  "django-removals",
+  "opentelemetry-instrumentation-asgi",
+  "opentelemetry-instrumentation-wsgi",
+  "opentelemetry-instrumentation-django",
+  "opentelemetry-instrumentation-logging",
+  "opentelemetry-instrumentation-psycopg2",
+  "opentelemetry-exporter-otlp",
+  "opentelemetry-distro"
+]
+
+[tool.deptry.package_module_name_map]
+apis-core-rdf = "apis_core"
