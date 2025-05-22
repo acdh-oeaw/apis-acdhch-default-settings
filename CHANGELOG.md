@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.9.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.8.0...v2.9.0) (2025-05-22)
+
+
+### Features
+
+* **settings:** add context processor for lang vars ([9ab8245](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/9ab824592f22e5b4b9b3d019c84d1fdf97bc1c56)), closes [#210](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/210)
+
 ## [2.8.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.7.0...v2.8.0) (2025-05-16)
 
 
