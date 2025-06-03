@@ -7,7 +7,7 @@ requires-python = ">=3.11"
 authors = [{ name = "Birger Schacht", email = "birger.schacht@oeaw.ac.at" }]
 license = "MIT"
 dependencies = [
-    "dj-database-url>=2.0.0,<3.0",
+    "dj-database-url>=2.0.0,<4.0",
     "django-allow-cidr>=0.6,<0.8",
     "django-csp>=3.7,<4.0",
     "whitenoise>=5.2,<7.0",
