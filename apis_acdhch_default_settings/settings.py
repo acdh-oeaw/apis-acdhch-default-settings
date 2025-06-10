@@ -22,7 +22,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django_removals",
     "crispy_forms",
-    "crispy_bootstrap4",
     "crispy_bootstrap5",
     "django_filters",
     "django_tables2",
