@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.10.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.9.0...v2.10.0) (2025-06-10)
+
+
+### Features
+
+* **settings:** drop crispy_bootstrap4 from INSTALLED_APPS ([6ce2983](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/6ce2983ba90e112a6e0f275116e39c9f1d6fc503))
+
 ## [2.9.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.8.0...v2.9.0) (2025-05-22)
 
 
