@@ -14,6 +14,7 @@ class E53_PlaceExternalAutocomplete(ExternalAutocomplete):
                 "prosnet-wikidata-place-index",
                 "prosnet-geonames-place-index",
             ],
+            template="e53_place_from_typesense_autocomplete_result.html",
             token=os.getenv("TYPESENSE_TOKEN", None),
             server=os.getenv("TYPESENSE_SERVER", None),
         ),
