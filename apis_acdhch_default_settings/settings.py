@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "apis_core.core",
     "rest_framework.authtoken",
     "drf_spectacular",
+    "auditlog",
+    "apis_acdhch_django_auditlog",
 ]
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#std-setting-USE_X_FORWARDED_HOST
