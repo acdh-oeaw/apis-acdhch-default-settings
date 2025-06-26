@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.11.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.10.0...v2.11.0) (2025-06-26)
+
+
+### Features
+
+* **autocomplete:** add a template for the typesense place results ([9d2b0b9](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/9d2b0b92d6a1eecabeff6b48a0219a302e983f02))
+* **settings:** add auditlog apps to INSTALLED_APPS ([ff34ecf](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ff34ecf59b23540441987c2e4d5ce874ee69be87))
+
 ## [2.10.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.9.0...v2.10.0) (2025-06-10)
 
 
