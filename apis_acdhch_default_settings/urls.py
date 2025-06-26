@@ -24,3 +24,6 @@ if "apis_bibsonomy" in settings.INSTALLED_APPS:
 
 urlpatterns.append(path("", TemplateView.as_view(template_name="base.html")))
 urlpatterns.append(path("imprint", Imprint.as_view(), name="imprint"))
+urlpatterns += [
+    path("", include("apis_acdhch_django_auditlog.urls")),
+]
