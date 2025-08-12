@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.11.0...v2.12.0) (2025-08-12)
+
+
+### Features
+
+* **templates:** override the `footer-center` block ([ad62d8c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ad62d8c3edc018cb1af4c98bc46c8f0101d7c7ae))
+
 ## [2.11.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.10.0...v2.11.0) (2025-06-26)
 
 
