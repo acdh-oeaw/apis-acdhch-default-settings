@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.12.0...v2.12.1) (2025-08-18)
+
+
+### Bug Fixes
+
+* **settings:** move audilot integration before core app ([ab3aaf7](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ab3aaf7248c986bb9a62a0be3146540ade839346))
+
 ## [2.12.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.11.0...v2.12.0) (2025-08-12)
 
 
