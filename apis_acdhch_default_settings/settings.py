@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "apis_ontology",
     "apis_acdhch_default_settings",
+    "apis_acdhch_django_auditlog",
     "apis_core.generic",
     "apis_core.collections",
     "apis_core.history",
@@ -38,7 +39,6 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "drf_spectacular",
     "auditlog",
-    "apis_acdhch_django_auditlog",
 ]
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#std-setting-USE_X_FORWARDED_HOST
