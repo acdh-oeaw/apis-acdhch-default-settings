@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.12.1...v2.12.2) (2025-08-27)
+
+
+### Bug Fixes
+
+* **templates:** move footer override into correct file ([c989a62](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/c989a62dc08811822fc5c11e5096d9cfffffc80e))
+
 ## [2.12.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.12.0...v2.12.1) (2025-08-18)
 
 
