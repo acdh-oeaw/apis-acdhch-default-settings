@@ -9,9 +9,9 @@
              src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" />
     </a>
 {% endblock footer-center %}
-{% block imprint %}
+{% block footer-right %}
     {% url "imprint" as imprint_url %}
     {% if imprint_url %}
         <a href="{{ imprint_url }}">{% translate "Imprint" %}</a>
     {% endif %}
-{% endblock imprint %}
+{% endblock footer-right %}
