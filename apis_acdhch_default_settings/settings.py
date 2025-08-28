@@ -244,6 +244,7 @@ if debug := os.environ.get("DJANGO_DEBUG", False):
 # information to set the repository url in APIS
 if os.environ.get("GITLAB_ENVIRONMENT_URL"):
     GIT_REPOSITORY_URL = os.environ.get("GITLAB_ENVIRONMENT_URL")
+    GIT_REPOSITORY_URL = GIT_REPOSITORY_URL.replace("git://", "https://")
 
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#login-url
