@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.13.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.12.2...v2.13.0) (2025-09-08)
+
+
+### Features
+
+* **querysets:** add ExternalAutocomplete for E74_Group ([3e24922](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/3e249223e91292340295ee6540cb915adce4476d)), closes [#235](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/235)
+* **settings:** replace git:// with https:// for GIT_REPOSITORY_URL ([ab577a4](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/ab577a4338341dfde9550e7c7abc6c4c3a224c5b))
+* **templates:** change block override in footer.html ([8750737](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/8750737996d6a4ea9bae622223a9b2fdcc3bdf5e))
+
+
+### Bug Fixes
+
+* **urls:** use apps.is_installed for checking app availability ([54f47c7](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/54f47c7f2ac0efcd4b1756bce98364d139946c13)), closes [#233](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/233)
+
 ## [2.12.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.12.1...v2.12.2) (2025-08-27)
 
 
