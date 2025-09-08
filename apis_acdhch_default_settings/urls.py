@@ -1,4 +1,4 @@
-from django.conf import settings
+from django.apps import apps
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import include
 from django.contrib import admin
@@ -17,7 +17,7 @@ urlpatterns = [
 ]
 urlpatterns += staticfiles_urlpatterns()
 
-if "apis_bibsonomy" in settings.INSTALLED_APPS:
+if apps.is_installed("apis_bibsonomy"):
     urlpatterns.append(
         path("bibsonomy/", include("apis_bibsonomy.urls", namespace="bibsonomy"))
     )
