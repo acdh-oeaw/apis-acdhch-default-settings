@@ -20,7 +20,7 @@ class E53_PlaceExternalAutocomplete(ExternalAutocomplete):
         ),
         LobidAutocompleteAdapter(
             params={
-                "filter": "type:PlaceOrGeographicName",
+                "filter": "type:TerritorialCorporateBodyOrAdministrativeUnit",
                 "format": "json:preferredName",
             }
         ),
