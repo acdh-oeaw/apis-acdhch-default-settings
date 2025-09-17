@@ -39,7 +39,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v6
 
-      - name: Run ruff check
+      - name: Run djLint formatter
         run: uv run --only-dev djlint --check  .
 
   djlint-linter:
@@ -51,7 +51,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v6
 
-      - name: Run ruff check
+      - name: Run djLint linter
         run: uv run --only-dev djlint --lint .
 
   deptry:
