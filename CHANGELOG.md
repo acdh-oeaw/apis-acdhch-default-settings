@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.14.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.13.0...v2.14.0) (2025-09-24)
+
+
+### Features
+
+* **settings:** add AuditlogMiddleware to MIDDLEWAREs ([e69a47e](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/e69a47e31081cf6e7d6f98f44e3846e1dce54a33))
+* **settings:** add HtmxMessageMiddleware to MIDDLEWAREs ([233a00c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/233a00cb7f43d2b9fa0813ee7f37945fab49f1b5))
+* **settings:** add uris to INSTALLED_APPS ([37ff4df](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/37ff4df3849f13f3da725b515d8d1e6f654f5df4)), closes [#247](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/247)
+
 ## [2.13.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.12.2...v2.13.0) (2025-09-08)
 
 
