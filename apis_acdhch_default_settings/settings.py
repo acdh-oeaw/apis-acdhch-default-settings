@@ -122,6 +122,8 @@ MIDDLEWARE = [
     "simple_history.middleware.HistoryRequestMiddleware",
     # a middleware to add Django messages to response headers
     "apis_core.generic.middleware.HtmxMessageMiddleware",
+    # allow auditlog to automatically set the actor for log entries
+    "auditlog.middleware.AuditlogMiddleware",
 ]
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#root-urlconf
