@@ -25,6 +25,7 @@ dependencies = [
     "requests>=2",
     "django-auditlog>=3.1.2",
     "apis-acdhch-django-auditlog>=0.2.1",
+    "djangorestframework>=3.16.1",
 ]
 [project.urls]
 source = "https://github.com/acdh-oeaw/apis-acdhch-default-settings"
@@ -70,3 +71,4 @@ DEP002 = [
 
 [tool.deptry.package_module_name_map]
 apis-core-rdf = "apis_core"
+djangorestframework = "rest_framework"
