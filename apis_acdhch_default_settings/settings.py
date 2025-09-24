@@ -120,6 +120,8 @@ MIDDLEWARE = [
     "crum.CurrentRequestUserMiddleware",
     # this is used by the apis_core.history module:
     "simple_history.middleware.HistoryRequestMiddleware",
+    # a middleware to add Django messages to response headers
+    "apis_core.generic.middleware.HtmxMessageMiddleware",
 ]
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#root-urlconf
