@@ -71,6 +71,7 @@ CSP_DEFAULT_SRC = (
 CSP_IMG_SRC = [
     "'self'",
     "*.acdh.oeaw.ac.at",
+    "*.acdh-dev.oeaw.ac.at",
     "data:",
     "*.openstreetmap.org",
     "cdnjs.cloudflare.com",
