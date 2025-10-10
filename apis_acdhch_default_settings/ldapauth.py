@@ -18,5 +18,8 @@ class CustomLDAPBackend(LDAPBackend):
                 logger.debug("Error reading user list from file: %s", e)
         user_list = list(map(str.strip, user_list))
         if user._username not in user_list:
+            logger.debug(
+                "User %s not in AUTH_LDAP_USER_LIST, passing on", user._username
+            )
             return None
         return super().authenticate_ldap_user(user, *args, **kwargs)
