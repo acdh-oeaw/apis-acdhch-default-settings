@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.15.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.14.0...v2.15.0) (2025-10-10)
+
+
+### Features
+
+* **ldapauth:** add debug log if user not in list ([9c746bf](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/9c746bf04999cce5ba862909e5592e7ab0bee175))
+* **ldapauth:** allow to define the user list in a file ([bfb5cf4](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/bfb5cf4726f72ee6d2985a8b9d13965bc673abe8)), closes [#252](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/252)
+* **settings:** add *.acdh-dev.oeaw.ac.at to CSP_IMG_SRC ([0edf189](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/0edf18911f92f641d555576600e004ebe2d7136b)), closes [#259](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/259)
+
 ## [2.14.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.13.0...v2.14.0) (2025-09-24)
 
 
