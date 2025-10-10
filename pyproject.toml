@@ -3,7 +3,7 @@ name = "apis-acdhch-default-settings"
 version = "2.14.0"
 description = "Default settings for APIS instances at the ACDH-CH"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 authors = [{ name = "Birger Schacht", email = "birger.schacht@oeaw.ac.at" }]
 license = "MIT"
 dependencies = [
