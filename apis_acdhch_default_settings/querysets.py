@@ -13,7 +13,8 @@ class E74_GroupExternalAutocomplete(ExternalAutocomplete):
             params={
                 "filter": "type:CorporateBody",
                 "format": "json:preferredName,geographicAreaCode,dateOfEstablishment,broaderTermInstantial",
-            }
+            },
+            data_mapping={"label": "label"},
         ),
     ]
 
@@ -28,12 +29,14 @@ class E53_PlaceExternalAutocomplete(ExternalAutocomplete):
             template="e53_place_from_typesense_autocomplete_result.html",
             token=os.getenv("TYPESENSE_TOKEN", None),
             server=os.getenv("TYPESENSE_SERVER", None),
+            data_mapping={"label": ["document", "label"]},
         ),
         LobidAutocompleteAdapter(
             params={
                 "filter": "type:PlaceOrGeographicName",
                 "format": "json:preferredName",
-            }
+            },
+            data_mapping={"label": "label"},
         ),
     ]
 
@@ -44,11 +47,13 @@ class E21_PersonExternalAutocomplete(ExternalAutocomplete):
             collections="prosnet-wikidata-person-index",
             token=os.getenv("TYPESENSE_TOKEN", None),
             server=os.getenv("TYPESENSE_SERVER", None),
+            data_mapping={"surname": ["document", "label"]},
         ),
         LobidAutocompleteAdapter(
             params={
                 "filter": "type:Person",
                 "format": "json:preferredName,professionOrOccupation",
-            }
+            },
+            data_mapping={"surname": "label"},
         ),
     ]
