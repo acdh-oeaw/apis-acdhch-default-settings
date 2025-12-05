@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.16.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.15.0...v2.16.0) (2025-12-05)
+
+
+### Features
+
+* **querysets:** add data-mapping to autocompletes ([d39ce20](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/d39ce20ddbab95b225d75dc7f16d20b61c54751b))
+
 ## [2.15.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.14.0...v2.15.0) (2025-10-10)
 
 
