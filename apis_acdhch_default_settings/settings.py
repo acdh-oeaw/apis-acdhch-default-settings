@@ -262,3 +262,16 @@ LOGIN_URL = "/apis/accounts/login"
 # apis-core does not provide a view on `/accounts/profile` which is the
 # default LOGIN_REDIRECT_URL, so we set it to `/`.
 LOGIN_REDIRECT_URL = "/"
+
+# Set the default renderers for the Django Rest Framework
+# https://www.django-rest-framework.org/api-guide/renderers/
+# We are providing the default views using the builtin
+# JSONRenderer and BrowsableAPIRenderer.
+# In addition, we provide Cidoc TTL and Cidoc XML representation
+# using the renderers shipped in apis_core.
+REST_FRAMEWORK["DEFAULT_RENDERER_CLASSES"] = [  # noqa: F405
+    "rest_framework.renderers.JSONRenderer",
+    "rest_framework.renderers.BrowsableAPIRenderer",
+    "apis_core.generic.renderers.CidocTTLRenderer",
+    "apis_core.generic.renderers.CidocXMLRenderer",
+]
