@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.17.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.16.0...v2.17.0) (2026-02-04)
+
+
+### Features
+
+* **pyproject:** add gunicorn as dependency ([0563593](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/0563593a990e863420da199abe4ecffd2d0c3d60)), closes [#271](https://github.com/acdh-oeaw/apis-acdhch-default-settings/issues/271)
+* **settings:** set the DRF default renderer classes ([d9a022c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/d9a022c1b539aeae72d1b87f551a9408459134a1))
+
 ## [2.16.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.15.0...v2.16.0) (2025-12-05)
 
 
