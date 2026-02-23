@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.18.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.17.0...v2.18.0) (2026-02-23)
+
+
+### Features
+
+* **templates:** include acdh icon links in base template ([fce5efb](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/fce5efb1ffb88120b781e89abd3e2f17c9860eb0))
+
 ## [2.17.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.16.0...v2.17.0) (2026-02-04)
 
 
