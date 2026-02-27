@@ -270,7 +270,7 @@ LOGIN_REDIRECT_URL = "/"
 # In addition, we provide Cidoc TTL and Cidoc XML representation
 # using the renderers shipped in apis_core.
 REST_FRAMEWORK["DEFAULT_RENDERER_CLASSES"] = [  # noqa: F405
-    "rest_framework.renderers.JSONRenderer",
+    "drf_orjson_renderer.renderers.ORJSONRenderer",
     "rest_framework.renderers.BrowsableAPIRenderer",
     "apis_core.generic.renderers.CidocTTLRenderer",
     "apis_core.generic.renderers.CidocXMLRenderer",
