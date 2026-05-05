@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     "apis_core.history",
     "apis_core.uris",
     "apis_core.relations",
+    "apis_core.entities",
     "apis_core.apis_entities",
     "apis_core.apis_metainfo",
     "apis_core.core",
