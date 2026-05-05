@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.19.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.18.0...v2.19.0) (2026-05-05)
+
+
+### Features
+
+* **deps:** bump minimal apis-core-version to 0.63.0 ([365c82e](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/365c82e859b0a73605a1aeb26c9579e34c65dfea))
+* **settings:** add apis_core.entities to INSTALLED_APPS ([6688372](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/668837270f492addfb4930b6b8d32266cef45d86))
+
 ## [2.18.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.17.0...v2.18.0) (2026-02-23)
 
 
