@@ -276,3 +276,9 @@ REST_FRAMEWORK["DEFAULT_RENDERER_CLASSES"] = [  # noqa: F405
     "apis_core.generic.renderers.CidocTTLRenderer",
     "apis_core.generic.renderers.CidocXMLRenderer",
 ]
+
+
+if os.environ.get("DJANGO_DEBUG_TOOLBAR", "False") == "True":
+    INSTALLED_APPS += ["debug_toolbar"]
+    MIDDLEWARE += ["debug_toolbar.middleware.DebugToolbarMiddleware"]
+    INTERNAL_IPS = ["127.0.0.1"]

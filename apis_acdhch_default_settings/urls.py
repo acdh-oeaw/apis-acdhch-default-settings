@@ -1,3 +1,4 @@
+import os
 from django.apps import apps
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.urls import include
@@ -27,3 +28,8 @@ urlpatterns.append(path("imprint", Imprint.as_view(), name="imprint"))
 urlpatterns += [
     path("", include("apis_acdhch_django_auditlog.urls")),
 ]
+
+if os.environ.get("DJANGO_DEBUG_TOOLBAR", "False") == "True":
+    from debug_toolbar.toolbar import debug_toolbar_urls
+
+    urlpatterns += debug_toolbar_urls()
