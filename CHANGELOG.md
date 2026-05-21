@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.20.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.19.0...v2.20.0) (2026-05-21)
+
+
+### Features
+
+* **settings:** add `debug_toolbar` to installed apps ([bf9eaec](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/bf9eaec773a59dc1aec4119f96bab8102cbab189))
+
 ## [2.19.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.18.0...v2.19.0) (2026-05-05)
 
 
