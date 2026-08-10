@@ -261,8 +261,8 @@ LOGIN_URL = "/apis/accounts/login"
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#login-redirect-url
 # apis-core does not provide a view on `/accounts/profile` which is the
-# default LOGIN_REDIRECT_URL, so we set it to `/`.
-LOGIN_REDIRECT_URL = "/"
+# default LOGIN_REDIRECT_URL, so we set it to `/apis/overview`.
+LOGIN_REDIRECT_URL = "/apis/overview"
 
 # Set the default renderers for the Django Rest Framework
 # https://www.django-rest-framework.org/api-guide/renderers/
