@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.21.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.20.0...v2.21.0) (2026-08-18)
+
+
+### Features
+
+* **settings:** redirect to the overview page after logging in ([6e24ead](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/6e24eadff8aaf78bafd2f93b79006d5aeffec9e7))
+
 ## [2.20.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.19.0...v2.20.0) (2026-05-21)
 
 
