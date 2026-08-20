@@ -282,3 +282,11 @@ if os.environ.get("DJANGO_DEBUG_TOOLBAR", "False") == "True":
     INSTALLED_APPS += ["debug_toolbar"]
     MIDDLEWARE += ["debug_toolbar.middleware.DebugToolbarMiddleware"]
     INTERNAL_IPS = ["127.0.0.1"]
+
+
+if os.environ.get("DJANGO_EMAIL_HOST"):
+    EMAIL_HOST = os.environ.get("DJANGO_EMAIL_HOST")
+
+if os.environ.get("DJANGO_ADMINS"):
+    admins = os.environ.get("DJANGO_ADMINS").split(",")
+    ADMINS = [(admin, admin) for admin in admins]
