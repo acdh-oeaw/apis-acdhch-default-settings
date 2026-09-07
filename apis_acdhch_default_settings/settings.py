@@ -198,7 +198,11 @@ ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 # https://docs.djangoproject.com/en/stable/ref/settings/#databases
 # https://github.com/jazzband/dj-database-url
 DATABASES = {
-    "default": dj_database_url.config(default="sqlite:///db.sqlite3", conn_max_age=600)
+    "default": dj_database_url.config(
+        default="sqlite:///db.sqlite3",
+        conn_max_age=600,
+        disable_server_side_cursors=True,
+    )
 }
 
 # https://docs.djangoproject.com/en/stable/ref/settings/#allowed-hosts
