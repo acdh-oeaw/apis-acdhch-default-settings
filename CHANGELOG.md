@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.22.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.21.0...v2.22.0) (2026-09-07)
+
+
+### Features
+
+* **settings:** allow to set EMAIL_HOST & ADMINS via env variables ([463b4bc](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/463b4bc62176f2713a784a6bb07b7897249fa8be))
+* **settings:** disable server side cursors in default db connection ([38dc543](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/38dc543ec9d789d540c15593d6368f9062de360a))
+
 ## [2.21.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.20.0...v2.21.0) (2026-08-18)
 
 
