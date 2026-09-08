@@ -2,6 +2,7 @@ import os
 import re
 from typing import Any, Dict
 from pathlib import Path
+from urllib.parse import urlparse
 
 from django.core.management.utils import get_random_secret_key
 import dj_database_url
@@ -290,6 +291,9 @@ if os.environ.get("DJANGO_DEBUG_TOOLBAR", "False") == "True":
 
 if os.environ.get("DJANGO_EMAIL_HOST"):
     EMAIL_HOST = os.environ.get("DJANGO_EMAIL_HOST")
+if os.environ.get("PUBLIC_URL"):
+    uri = urlparse(os.environ.get("PUBLIC_URL"))
+    SERVER_EMAIL = f"django@{uri.hostname}"
 
 if os.environ.get("DJANGO_ADMINS"):
     admins = os.environ.get("DJANGO_ADMINS").split(",")
