@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.23.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.22.0...v2.23.0) (2026-09-08)
+
+
+### Features
+
+* **settings:** set SERVER_EMAIL using the PUBLIC_URL env variable ([0ec34a2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/0ec34a29929a0573c14456e6fe818c4250a0fb6c))
+
 ## [2.22.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.21.0...v2.22.0) (2026-09-07)
 
 
