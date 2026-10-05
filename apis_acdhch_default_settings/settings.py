@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "apis_core.apis_entities",
     "apis_core.apis_metainfo",
     "apis_core.core",
+    "apis_core.search",
     "rest_framework.authtoken",
     "drf_spectacular",
     "auditlog",
