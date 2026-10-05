@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.24.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.23.0...v2.24.0) (2026-10-05)
+
+
+### Features
+
+* **settings:** add `apis_core.search` to INSTALLED_APPS ([cbda7ab](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/cbda7ab25bb93f1810ef1db5b6d3f8dd0a9311df))
+
 ## [2.23.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.22.0...v2.23.0) (2026-09-08)
 
 
