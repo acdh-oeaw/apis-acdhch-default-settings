@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.24.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.24.0...v2.24.1) (2026-10-14)
+
+
+### Bug Fixes
+
+* **settings:** move search to the correct position in the apps list ([8292e5c](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/8292e5c1743a8b82a08ed3f2e0071a978007ff99))
+
 ## [2.24.0](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.23.0...v2.24.0) (2026-10-05)
 
 
