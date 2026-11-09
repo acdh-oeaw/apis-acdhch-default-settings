@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.24.2](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.24.1...v2.24.2) (2026-11-09)
+
+
+### Bug Fixes
+
+* **settings:** add `django.contrib.postgres` to INSTALLED_APPS ([938dcf1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/commit/938dcf10a8319fe8465ad26dc0169a0e61a31e60))
+
 ## [2.24.1](https://github.com/acdh-oeaw/apis-acdhch-default-settings/compare/v2.24.0...v2.24.1) (2026-10-14)
 
 
